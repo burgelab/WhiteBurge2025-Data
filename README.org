@@ -1,13 +1,18 @@
+Data from [[https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012945][How distinct sources of nuisance variability in natural images and scenes limit human stereopsis (2025)]]
 
-|subj| subject number.* |
-|exp| experiment number.*|
-|blk| Trial block. 100 trials per block. 5 blocks per level. |
-|trial| Trial out of 100.|k
-|pass| Pass number.* |
-|CX| Disparity contrast level. 1 for low, 2 for high |
-|stdX| Standard disparity pedestal in degrees |
-|cmpX| Comparison disparity pedestal in degrees. |
-|cmpInt| Which interval the comparison was presented. |
-|R | Observer respose, ie. interval observer selected as having more disparity pedestal.|
+* WhiteBurge2025_raw.csv
+Raw psychophysical data
+
+| subj         | subject number.*                                                                    |
+| exp/aliasInd | experiment number.*                                                                 |
+| blk          | Trial block. 100 trials per block. 5 blocks per level.                              |
+| trial        | Trial number out of 100.                                                            |
+| pass         | Pass number out of 2.*                                                              |
+| CX/bin       | Disparity contrast level. 1 for low, 2 for high                                     |
+| stdX         | Standard disparity pedestal in degrees                                              |
+| cmpX         | Comparison disparity pedestal in degrees.                                           |
+| cmpInt       | Which interval the comparison was presented.                                        |
+| R            | Observer respose, ie. interval observer selected as having more disparity pedestal. |
 *Values are consistent with paper.
+
 
